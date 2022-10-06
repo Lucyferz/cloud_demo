@@ -1,7 +1,8 @@
 package com.adelaide.springcloud.service.impl;
 
-import com.adelaide.entities.Payment;
+
 import com.adelaide.springcloud.dao.PaymentDao;
+import com.adelaide.entities.Payment;
 import com.adelaide.springcloud.service.PaymentService;
 import org.springframework.stereotype.Service;
 

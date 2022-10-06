@@ -29,7 +29,7 @@ public class PaymentController {
 
     @GetMapping(value = "/payment/get/{id}")
     public CommonResult getPaymentById(@PathVariable("id") Long id) {
-        Payment payment = paymentService.getPaymentById(id);
+        Payment payment = (Payment) paymentService.getPaymentById(id);
         log.info("Get Payment:　" + payment);
 
         if (payment==null) {
